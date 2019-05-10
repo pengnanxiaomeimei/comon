@@ -1,0 +1,15 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.153.129:9300
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://192.168.1.161:3306/test?useUnicode=true&amp;characterEncoding=UTF-8&allowMultiQueries=true&rewriteBatchedStatements=true
+    url: jdbc:mysql://101.200.177.83:3308/kindergarten?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&rewriteBatchedStatements=true
+    username: bss_dev
+    password: af758$ef6K0a%57b8fB
+  activemq:
+      broker-url: tcp://192.168.1.222:61616
+      in-memory: true
+      pool:
+        enabled: false
