@@ -14,4 +14,6 @@ import org.springframework.stereotype.Repository;
 public interface UserRepositories  extends ElasticsearchRepository<User,String > {
     @Override
     Iterable<User> findAll();
+    //github make the change
+    List findUserByNameLike(String like);
 }
